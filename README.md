@@ -30,6 +30,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -42,49 +44,23 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global cloud developer environments, terminal tooling, and code intelligence sector is estimated at **$7.5B to $8.6B** (expanding at an estimated 15–23% CAGR). The market exhibits a **moderately fragmented yet bifurcated dynamic**: foundational hyperscalers (Microsoft, Alphabet, Amazon) dominate enterprise cloud shell and remote workspace hosting, while specialized terminal emulator, code search, and developer workflow innovators (such as Warp, Sourcegraph, and Gitpod) capture high-growth niches around AI-assisted developer velocity.
+
+
+
 ## SaaS/Hosted Platforms
 
-
-
-- **[GitHub Codespaces & Web Editor (`github.dev`)](https://github.com)**  
-
-  Cloud-hosted development and browser terminal environment pre-equipped with modern CLI file viewers (`bat`, `ripgrep`, `fzf`, `vim`) and syntax-highlighted file inspection.
-
-
-
-- **[AWS CloudShell](https://amazon.com)**  
-
-  Browser-based, pre-authenticated cloud terminal environment providing instant POSIX shell access with pre-installed `vim`, `nano`, `less`, and `git` utilities.
-
-
-
-- **[Google Cloud Shell](https://google.com)**  
-
-  Managed cloud CLI and web code editor featuring persistent home storage, built-in syntax highlighting, and pre-configured terminal tools for inspecting cloud configs.
-
-
-
-- **[Gitpod / Ona Cloud Environments](https://gitpod.io)**  
-
-  Ephemeral cloud developer workspaces delivering browser-accessible terminals and reproducible dotfiles setups (`bat`, `eza`, `delta`, `neovim`) out of the box.
-
-
-
-- **[Carbon (`carbon.now.sh`)](https://now.sh)**  
-
-  Hosted web platform and CLI-integrable service for turning source code snippets into beautifully syntax-highlighted images and shareable embeds.
-
-
-
-- **[Warp Cloud (Warp Terminal)](https://warp.dev)**  
-
-  Modern GPU-accelerated terminal featuring cloud-synced workflows, block-based command output inspection, syntax highlighting, and integrated file viewing.
-
-
-
-- **[Sourcegraph Cloud](https://sourcegraph.com)**  
-
-  Cloud code intelligence and universal code search platform offering hosted Ripgrep-powered regex search and syntax-highlighted cross-repository file browsing.
+| Platform | Company Valuation / Revenue | Starting Paid Tier Pricing | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Google Cloud Shell](https://google.com)** | **Alphabet: ~$2.1T+ Valuation** (~$350B+ Ann. Revenue) | $0.00 (Standard shell included free with Google Cloud account; pay standard GCE rates only for custom VM attachments) | **Free forever**: 50 hours of Cloud Shell usage per week per user, plus 5 GB persistent home directory storage. | Managed cloud CLI and web code editor featuring persistent home storage, built-in syntax highlighting, and pre-configured terminal tools for inspecting cloud configs. |
+| **[AWS CloudShell](https://amazon.com)** | **Amazon: ~$2.0T+ Valuation** (~$600B+ Ann. Revenue) | $0.00 (Standard shell included at no additional charge with AWS Account; standard AWS resource fees apply if accessing VPCs/S3) | **Free forever**: Up to 10 concurrent shells per AWS region, 1 GB persistent storage per region, and 20-minute inactivity auto-stop. | Browser-based, pre-authenticated cloud terminal environment providing instant POSIX shell access with pre-installed `vim`, `nano`, `less`, and `git` utilities. |
+| **[GitHub Codespaces & Web Editor (`github.dev`)](https://github.com)** | **Microsoft / GitHub: ~$3.1T+ Valuation** (~$1B+ GitHub ARR) | $0.18/hour (2-core compute) + $0.07/GB/month (storage) or Team plan starting at $4.00/user/month | **Free forever**: 60 core-hours of compute and 15 GB of Codespaces storage per month for all GitHub Free personal accounts; `github.dev` web editor is 100% free with unlimited hours. | Cloud-hosted development and browser terminal environment pre-equipped with modern CLI file viewers (`bat`, `ripgrep`, `fzf`, `vim`) and syntax-highlighted file inspection. |
+| **[Sourcegraph Cloud](https://sourcegraph.com)** | **Sourcegraph: ~$2.6B Valuation** (~$50M ARR) | $16,000/year (Enterprise baseline annual commitment for production engineering teams) | **Sales-assisted trial**: Discontinued public self-serve free tier; provides a custom enterprise Proof-of-Concept (PoC) / 14-day to 30-day trial upon sales coordination. | Cloud code intelligence and universal code search platform offering hosted Ripgrep-powered regex search and syntax-highlighted cross-repository file browsing. |
+| **[Warp Cloud (Warp Terminal)](https://warp.dev)** | **Warp: ~$300M+ Valuation** (~$16M ARR) | $20.00/user/month ($18/month billed annually) on the Build tier | **Free forever**: Full core terminal functionality, 3 indexed codebases (up to 3,000 files each), 30 cloud conversations, 10 shared workflows, and unlimited BYOK (Bring Your Own Key) for AI agents (0 bundled Warp AI credits). | Modern GPU-accelerated terminal featuring cloud-synced workflows, block-based command output inspection, syntax highlighting, and integrated file viewing. |
+| **[Gitpod / Ona Cloud Environments](https://gitpod.io)** | **Gitpod: ~$100M+ Valuation** (~$38M total funding raised) | $9.00/user/month (Pay-As-You-Go / Starter tier with 1,000 credits) | **Free forever**: 500 credits per month (~50 hours of standard workspace compute) across public and private GitHub/GitLab repositories. | Ephemeral cloud developer workspaces delivering browser-accessible terminals and reproducible dotfiles setups (`bat`, `eza`, `delta`, `neovim`) out of the box. |
+| **[Carbon (`carbon.now.sh`)](https://carbon.now.sh)** | **Carbon: Bootstrapped / Community Project** (<$1M valuation) | $0.00 (100% free open-source community tool; optional community GitHub/Open Collective sponsorships) | **Free forever**: Completely free and unlimited syntax-highlighted code snippet exports and image generation with no account or paywall required. | Hosted web platform and CLI-integrable service for turning source code snippets into beautifully syntax-highlighted images and shareable embeds. |
 
 
 
