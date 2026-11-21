@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background:#0b0f19;border-radius:12px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080b14"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#334155" stroke-width="0.7" stroke-opacity="0.3"/>
+    </pattern>
+
+    <!-- Filter Glow -->
+    <filter id="blurFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.35; }
+      50% { transform: scale(1.15) translate(-20px, 15px); opacity: 0.6; }
+    }
+    @keyframes pulseOrb2 {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.3; }
+      50% { transform: scale(1.2) translate(25px, -15px); opacity: 0.55; }
+    }
+    @keyframes floatPill {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-7px); }
+    }
+    @keyframes floatPillReverse {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(7px); }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(-100%); }
+      100% { transform: translateY(1000%); }
+    }
+    .orb-1 { animation: pulseOrb 7s ease-in-out infinite; transform-origin: 200px 100px; }
+    .orb-2 { animation: pulseOrb2 8s ease-in-out infinite; transform-origin: 1000px 260px; }
+    .pill-anim-1 { animation: floatPill 4.5s ease-in-out infinite; }
+    .pill-anim-2 { animation: floatPillReverse 5s ease-in-out infinite; }
+    .pill-anim-3 { animation: floatPill 4.8s ease-in-out infinite; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" rx="12"/>
+
+  <!-- Background Grid Pattern -->
+  <rect width="100%" height="100%" fill="url(#grid)" rx="12"/>
+
+  <!-- Dynamic Glowing Orbs Behind Foreground Content -->
+  <circle class="orb-1" cx="220" cy="110" r="140" fill="url(#glowGrad)" filter="url(#blurFilter)"/>
+  <circle class="orb-2" cx="980" cy="240" r="160" fill="url(#glowGrad)" filter="url(#blurFilter)"/>
+
+  <!-- Decorative Outer Border -->
+  <rect x="1.5" y="1.5" width="1197" height="357" rx="11" fill="none" stroke="url(#borderGrad)" stroke-width="2"/>
+
+  <!-- Interactive Terminal Window Backdrop (Subtle) -->
+  <g opacity="0.45" transform="translate(100, 20)">
+    <rect width="1000" height="320" rx="8" fill="#0f172a" fill-opacity="0.3" stroke="#1e293b" stroke-width="1"/>
+    <!-- Terminal Header Dots -->
+    <circle cx="22" cy="18" r="5" fill="#ef4444"/>
+    <circle cx="38" cy="18" r="5" fill="#f59e0b"/>
+    <circle cx="54" cy="18" r="5" fill="#10b981"/>
+    <text x="80" y="22" fill="#64748b" font-size="12" font-family="monospace">terminal — bat | glow | fzf | delta | eza | yazi</text>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Guaranteed high contrast, non-overlapping -->
+  <!-- Category Badge -->
+  <g transform="translate(470, 68)">
+    <rect width="260" height="28" rx="14" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.2"/>
+    <circle cx="16" cy="14" r="4" fill="#38bdf8"/>
+    <text x="30" y="19" fill="#c7d2fe" font-size="12" font-weight="600" letter-spacing="0.5">CLI UTILITIES &amp; SYNTAX VIEWERS</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="148" text-anchor="middle" fill="url(#textGrad)" font-size="44" font-weight="900" letter-spacing="-1">
+    Awesome CLI File Viewers
+  </text>
+  <text x="600" y="194" text-anchor="middle" fill="#ffffff" font-size="28" font-weight="700" letter-spacing="-0.5">
+    &amp; Syntax Highlighting Tools
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="235" text-anchor="middle" fill="#94a3b8" font-size="16" font-weight="400">
+    Curated ecosystem of terminal pagers, AST diff viewers, syntax renderers &amp; cloud shells
+  </text>
+
+  <!-- Animated Feature Badges / Pills -->
+  <g class="pill-anim-1" transform="translate(170, 280)">
+    <rect width="180" height="36" rx="18" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" opacity="0.95"/>
+    <text x="90" y="23" text-anchor="middle" fill="#38bdf8" font-size="13" font-weight="700">⚡ Fast Rust &amp; Go CLI</text>
+  </g>
+
+  <g class="pill-anim-2" transform="translate(380, 280)">
+    <rect width="210" height="36" rx="18" fill="#1e293b" stroke="#a855f7" stroke-width="1.2" opacity="0.95"/>
+    <text x="105" y="23" text-anchor="middle" fill="#c084fc" font-size="13" font-weight="700">🎨 TextMate &amp; Tree-sitter</text>
+  </g>
+
+  <g class="pill-anim-3" transform="translate(620, 280)">
+    <rect width="210" height="36" rx="18" fill="#1e293b" stroke="#2dd4bf" stroke-width="1.2" opacity="0.95"/>
+    <text x="105" y="23" text-anchor="middle" fill="#2dd4bf" font-size="13" font-weight="700">🔍 Fuzzy Search &amp; Diffing</text>
+  </g>
+
+  <g class="pill-anim-1" transform="translate(860, 280)">
+    <rect width="170" height="36" rx="18" fill="#1e293b" stroke="#f43f5e" stroke-width="1.2" opacity="0.95"/>
+    <text x="85" y="23" text-anchor="middle" fill="#fb7185" font-size="13" font-weight="700">☁️ Cloud Shell &amp; CDEs</text>
+  </g>
+</svg>
