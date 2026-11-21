@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-CLI-File-Viewers-Syntax-Highlighting/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CLI-File-Viewers-Syntax-Highlighting?style=social" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CLI-File-Viewers-Syntax-Highlighting/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CLI-File-Viewers-Syntax-Highlighting?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-CLI-File-Viewers-Syntax-Highlighting/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-CLI-File-Viewers-Syntax-Highlighting?style=social" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-CLI-File-Viewers-Syntax-Highlighting/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-CLI-File-Viewers-Syntax-Highlighting?color=007ec6" alt="Issues"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-CLI-File-Viewers-Syntax-Highlighting/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"/></a>
@@ -71,71 +71,71 @@ The global cloud developer environments, terminal tooling, and code intelligence
 
 This section tracks premier open-source terminal file viewers, syntax highlighters, fuzzy finders, AST diff engines, and terminal file managers.
 
-Sorted in descending order by GitHub Stars ⭐. Every star badge links directly to that repository's stargazers page.
+Sorted in descending order by GitHub_Stars ⭐. Every Stars_Badge links directly to that repository's stargazers page.
 
 ### Top Projects (Ranked by Stars)
 
-- **[Neovim](https://github.com/neovim/neovim)** [![GitHub stars](https://img.shields.io/github/stars/neovim/neovim?style=social&color=white)](https://github.com/neovim/neovim/stargazers) ⚡  
+- **[Neovim](https://github.com/neovim/neovim)** [![GitHub_Stars](https://img.shields.io/github/stars/neovim/neovim?style=social&color=white)](https://github.com/neovim/neovim/stargazers) ⚡  
   Vim-fork focused on extensibility and usability, featuring built-in Tree-sitter syntax highlighting, asynchronous Lua scripting, LSP client, and headless read-only pager mode (`nvim -R`).
 
-- **[fzf](https://github.com/junegunn/fzf)** [![GitHub stars](https://img.shields.io/github/stars/junegunn/fzf?style=social&color=white)](https://github.com/junegunn/fzf/stargazers) 🔍  
+- **[fzf](https://github.com/junegunn/fzf)** [![GitHub_Stars](https://img.shields.io/github/stars/junegunn/fzf?style=social&color=white)](https://github.com/junegunn/fzf/stargazers) 🔍  
   Blazing-fast, portable general-purpose command-line fuzzy finder written in Go with real-time interactive preview windows powered by `bat`, `glow`, or custom viewer scripts.
 
-- **[Ripgrep](https://github.com/BurntSushi/ripgrep)** [![GitHub stars](https://img.shields.io/github/stars/BurntSushi/ripgrep?style=social&color=white)](https://github.com/BurntSushi/ripgrep/stargazers) ⚡  
+- **[Ripgrep](https://github.com/BurntSushi/ripgrep)** [![GitHub_Stars](https://img.shields.io/github/stars/BurntSushi/ripgrep?style=social&color=white)](https://github.com/BurntSushi/ripgrep/stargazers) ⚡  
   Line-oriented search tool written in Rust that recursively searches directories for regex patterns while respecting `.gitignore`, outputting ANSI syntax-highlighted matching lines.
 
-- **[Bat](https://github.com/sharkdp/bat)** [![GitHub stars](https://img.shields.io/github/stars/sharkdp/bat?style=social&color=white)](https://github.com/sharkdp/bat/stargazers) 🦇  
+- **[Bat](https://github.com/sharkdp/bat)** [![GitHub_Stars](https://img.shields.io/github/stars/sharkdp/bat?style=social&color=white)](https://github.com/sharkdp/bat/stargazers) 🦇  
   Flagship open-source `cat(1)` clone written in Rust with TextMate syntax highlighting, automatic pagination via `less`, Git diff gutter indicators, and non-printable character display.
 
-- **[Helix](https://github.com/helix-editor/helix)** [![GitHub stars](https://img.shields.io/github/stars/helix-editor/helix?style=social&color=white)](https://github.com/helix-editor/helix/stargazers) 🧬  
+- **[Helix](https://github.com/helix-editor/helix)** [![GitHub_Stars](https://img.shields.io/github/stars/helix-editor/helix?style=social&color=white)](https://github.com/helix-editor/helix/stargazers) 🧬  
   Modern post-modern modal terminal text editor and viewer written in Rust with built-in Tree-sitter syntax highlighting, multiple selections, and zero-config LSP support.
 
-- **[fd](https://github.com/sharkdp/fd)** [![GitHub stars](https://img.shields.io/github/stars/sharkdp/fd?style=social&color=white)](https://github.com/sharkdp/fd/stargazers) 📂  
+- **[fd](https://github.com/sharkdp/fd)** [![GitHub_Stars](https://img.shields.io/github/stars/sharkdp/fd?style=social&color=white)](https://github.com/sharkdp/fd/stargazers) 📂  
   Simple, fast, and user-friendly alternative to `find(1)` written in Rust, featuring colorized terminal output by file type, regex matching, and parallel directory traversal.
 
-- **[Yazi](https://github.com/sxyazi/yazi)** [![GitHub stars](https://img.shields.io/github/stars/sxyazi/yazi?style=social&color=white)](https://github.com/sxyazi/yazi/stargazers) 🦆  
+- **[Yazi](https://github.com/sxyazi/yazi)** [![GitHub_Stars](https://img.shields.io/github/stars/sxyazi/yazi?style=social&color=white)](https://github.com/sxyazi/yazi/stargazers) 🦆  
   Blazing-fast terminal file manager written in Rust based on non-blocking async I/O, featuring built-in syntax-highlighted code previews, image rendering, and `fzf`/`ripgrep` search integration.
 
-- **[Vim](https://github.com/vim/vim)** [![GitHub stars](https://img.shields.io/github/stars/vim/vim?style=social&color=white)](https://github.com/vim/vim/stargazers) 📝  
+- **[Vim](https://github.com/vim/vim)** [![GitHub_Stars](https://img.shields.io/github/stars/vim/vim?style=social&color=white)](https://github.com/vim/vim/stargazers) 📝  
   Ubiquitous modal Unix text editor and terminal file inspector with syntax coloring for hundreds of programming languages, regex search, and standard terminal paging.
 
-- **[btop](https://github.com/aristocratos/btop)** [![GitHub stars](https://img.shields.io/github/stars/aristocratos/btop?style=social&color=white)](https://github.com/aristocratos/btop/stargazers) 🖥️  
+- **[btop](https://github.com/aristocratos/btop)** [![GitHub_Stars](https://img.shields.io/github/stars/aristocratos/btop?style=social&color=white)](https://github.com/aristocratos/btop/stargazers) 🖥️  
   Modern, responsive terminal monitor written in C++ featuring real-time syntax-colored process inspection, disk I/O trees, and system resource visualization.
 
-- **[Delta](https://github.com/dandavison/delta)** [![GitHub stars](https://img.shields.io/github/stars/dandavison/delta?style=social&color=white)](https://github.com/dandavison/delta/stargazers) 🔀  
+- **[Delta](https://github.com/dandavison/delta)** [![GitHub_Stars](https://img.shields.io/github/stars/dandavison/delta?style=social&color=white)](https://github.com/dandavison/delta/stargazers) 🔀  
   Syntax-highlighting pager for `git`, `diff`, `grep`, and `blame` output written in Rust with side-by-side split diffs, word-level changes, and configurable themes.
 
-- **[Micro](https://github.com/zyedidia/micro)** [![GitHub stars](https://img.shields.io/github/stars/zyedidia/micro?style=social&color=white)](https://github.com/zyedidia/micro/stargazers) 🔬  
+- **[Micro](https://github.com/zyedidia/micro)** [![GitHub_Stars](https://img.shields.io/github/stars/zyedidia/micro?style=social&color=white)](https://github.com/zyedidia/micro/stargazers) 🔬  
   Modern, intuitive terminal-based text editor and file viewer written in Go with full mouse support, standard keybindings, splits, and 130+ syntax themes.
 
-- **[Glow](https://github.com/charmbracelet/glow)** [![GitHub stars](https://img.shields.io/github/stars/charmbracelet/glow?style=social&color=white)](https://github.com/charmbracelet/glow/stargazers) 🌟  
+- **[Glow](https://github.com/charmbracelet/glow)** [![GitHub_Stars](https://img.shields.io/github/stars/charmbracelet/glow?style=social&color=white)](https://github.com/charmbracelet/glow/stargazers) 🌟  
   Terminal-based Markdown reader and CLI renderer written in Go by Charm, featuring Glamour syntax highlighting, interactive TUI directory browsing, and stash syncing.
 
-- **[Difftastic](https://github.com/Wilfred/difftastic)** [![GitHub stars](https://img.shields.io/github/stars/Wilfred/difftastic?style=social&color=white)](https://github.com/Wilfred/difftastic/stargazers) 🌳  
+- **[Difftastic](https://github.com/Wilfred/difftastic)** [![GitHub_Stars](https://img.shields.io/github/stars/Wilfred/difftastic?style=social&color=white)](https://github.com/Wilfred/difftastic/stargazers) 🌳  
   Structural, AST-aware diff tool that compares source code files using Tree-sitter syntax parsing rather than naive line-by-line comparison, displaying syntax-highlighted semantic diffs.
 
-- **[Superfile](https://github.com/yorukot/superfile)** [![GitHub stars](https://img.shields.io/github/stars/yorukot/superfile?style=social&color=white)](https://github.com/yorukot/superfile/stargazers) 📁  
+- **[Superfile](https://github.com/yorukot/superfile)** [![GitHub_Stars](https://img.shields.io/github/stars/yorukot/superfile?style=social&color=white)](https://github.com/yorukot/superfile/stargazers) 📁  
   Fancy, modern terminal file manager written in Go with dual-pane browsing, hotkeys, file previews, and embedded syntax highlighting.
 
-- **[Eza](https://github.com/eza-community/eza)** [![GitHub stars](https://img.shields.io/github/stars/eza-community/eza?style=social&color=white)](https://github.com/eza-community/eza/stargazers) 🗂️  
+- **[Eza](https://github.com/eza-community/eza)** [![GitHub_Stars](https://img.shields.io/github/stars/eza-community/eza?style=social&color=white)](https://github.com/eza-community/eza/stargazers) 🗂️  
   Modern, actively maintained open-source replacement for `ls` written in Rust featuring color-coded file formats, Git status integration, tree views, symlink targets, and Nerd Font icons.
 
-- **[fx](https://github.com/antonmedv/fx)** [![GitHub stars](https://img.shields.io/github/stars/antonmedv/fx?style=social&color=white)](https://github.com/antonmedv/fx/stargazers) 🧩  
+- **[fx](https://github.com/antonmedv/fx)** [![GitHub_Stars](https://img.shields.io/github/stars/antonmedv/fx?style=social&color=white)](https://github.com/antonmedv/fx/stargazers) 🧩  
   Terminal JSON viewer and interactive streaming tool written in Go with collapsible tree exploration, mouse support, JavaScript/Python transforms, and syntax highlighting.
 
-- **[Ranger](https://github.com/ranger/ranger)** [![GitHub stars](https://img.shields.io/github/stars/ranger/ranger?style=social&color=white)](https://github.com/ranger/ranger/stargazers) 🏹  
+- **[Ranger](https://github.com/ranger/ranger)** [![GitHub_Stars](https://img.shields.io/github/stars/ranger/ranger?style=social&color=white)](https://github.com/ranger/ranger/stargazers) 🏹  
   Console file manager with VI keybindings written in Python featuring multi-column Miller columns and an integrated syntax-highlighted file preview pager.
 
-- **[jless](https://github.com/PaulJuliusMartinez/jless)** [![GitHub stars](https://img.shields.io/github/stars/PaulJuliusMartinez/jless?style=social&color=white)](https://github.com/PaulJuliusMartinez/jless/stargazers) 📑  
+- **[jless](https://github.com/PaulJuliusMartinez/jless)** [![GitHub_Stars](https://img.shields.io/github/stars/PaulJuliusMartinez/jless?style=social&color=white)](https://github.com/PaulJuliusMartinez/jless/stargazers) 📑  
   Command-line JSON and YAML viewer written in Rust with syntax highlighting, vim-style navigation, regex searching, and structural breadcrumb inspection.
 
-- **[Chroma](https://github.com/alecthomas/chroma)** [![GitHub stars](https://img.shields.io/github/stars/alecthomas/chroma?style=social&color=white)](https://github.com/alecthomas/chroma/stargazers) 🎨  
+- **[Chroma](https://github.com/alecthomas/chroma)** [![GitHub_Stars](https://img.shields.io/github/stars/alecthomas/chroma?style=social&color=white)](https://github.com/alecthomas/chroma/stargazers) 🎨  
   General-purpose syntax highlighting library and CLI utility in Go, heavily inspired by Pygments, powering terminal formatters and tools like `glow`.
 
-- **[ov](https://github.com/noborus/ov)** [![GitHub stars](https://img.shields.io/github/stars/noborus/ov?style=social&color=white)](https://github.com/noborus/ov/stargazers) 📜  
+- **[ov](https://github.com/noborus/ov)** [![GitHub_Stars](https://img.shields.io/github/stars/noborus/ov?style=social&color=white)](https://github.com/noborus/ov/stargazers) 📜  
   Feature-rich terminal pager written in Go supporting multi-color highlighting, column mode, CSV table alignment, section header pinning, and mouse navigation.
 
-- **[GNU Less](https://github.com/gwsw/less)** [![GitHub stars](https://img.shields.io/github/stars/gwsw/less?style=social&color=white)](https://github.com/gwsw/less/stargazers) 📟  
+- **[GNU Less](https://github.com/gwsw/less)** [![GitHub_Stars](https://img.shields.io/github/stars/gwsw/less?style=social&color=white)](https://github.com/gwsw/less/stargazers) 📟  
   The foundational open-source terminal pager utility supporting forward/backward scrolling, regex search, ANSI color pass-through (`less -R`), and `lesspipe` syntax filters.
 
 ---
@@ -172,7 +172,7 @@ Contributions are warmly welcomed! Help keep this ecosystem guide comprehensive 
 2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-cli-tool`).
 3. 📝 **Add your tool** to `README.md` following the established format:
    - Name and link
-   - GitHub stars badge linked to stargazers
+   - GitHub_Stars_Badge linked to stargazers
    - Concise 1–2 sentence description of syntax viewing capabilities
 4. 📬 **Submit a Pull Request** with a descriptive summary of the project.
 
